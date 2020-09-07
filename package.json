@@ -1,6 +1,7 @@
 {
   "name": "cache-nix-javascript",
   "version": "1.0.1",
+  "type": "module",
   "description": "Cache packages from the Nix package manager",
   "main": "index.js",
   "scripts": {
