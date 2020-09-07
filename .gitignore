@@ -1,5 +1,8 @@
 node_modules/
 
+# Not necessary currently; only causing state drift.
+package-lock.json
+
 # Editors
 .vscode/
 .idea/
