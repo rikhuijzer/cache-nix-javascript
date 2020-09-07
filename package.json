@@ -1,7 +1,7 @@
 {
-  "name": "javascript-action",
-  "version": "1.0.0",
-  "description": "JavaScript Action Template",
+  "name": "cache-nix-javascript",
+  "version": "1.0.1",
+  "description": "Cache packages from the Nix package manager",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -16,16 +16,17 @@
   "keywords": [
     "GitHub",
     "Actions",
-    "JavaScript"
+    "Nix"
   ],
-  "author": "",
+  "author": "Rik Huijzer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/actions/javascript-action/issues"
+    "url": "https://github.com/rikhuijzer/cache-nix-javascript/issues"
   },
-  "homepage": "https://github.com/actions/javascript-action#readme",
+  "homepage": "https://github.com/rikhuijzer/cache-nix-javascript",
   "dependencies": {
-    "@actions/core": "^1.1.1"
+    "@actions/cache": "^1.0.2",
+    "@actions/core": "^1.2.5",
   },
   "devDependencies": {
     "@vercel/ncc": "^0.24.0",
