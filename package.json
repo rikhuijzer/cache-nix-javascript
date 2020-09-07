@@ -1,14 +1,12 @@
 {
   "name": "cache-nix-javascript",
   "version": "1.0.1",
-  "type": "module",
   "description": "Cache packages from the Nix package manager",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "prepare": "ncc build index.js -o dist --source-map",
     "test": "jest",
-    "all": "npm run lint && npm run prepare && npm run test"
+    "all": "npm run lint && npm run test"
   },
   "repository": {
     "type": "git",
